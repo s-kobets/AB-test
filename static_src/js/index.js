@@ -7,8 +7,6 @@ import template from '../index.jade'
 document.addEventListener('DOMContentLoaded', addLink);
 
 function addLink() {
-	const $mswBanner = document.querySelectorAll('.js-msw-banner-unauthorized')[0];
-
 	window.banner = function ($banner) {
 		initialize($banner);
 	}
