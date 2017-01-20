@@ -2,7 +2,13 @@ const Cookies = require('js-cookie');
 
 import '../css/index.styl'
 
+// для тестов нужно комментировать
 import template from '../index.jade'
+
+/* for test's mocha */
+// const jsdom = require('jsdom');
+// const document = jsdom.jsdom('');
+// const window = document.defaultView;
 
 document.addEventListener('DOMContentLoaded', addLink);
 
@@ -74,3 +80,5 @@ function coockieSet() {
 	});
 	return value;
 }
+
+export default coockieSet;

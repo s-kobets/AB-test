@@ -1,6 +1,7 @@
 # Описание
 
-	Пример использования в index.html
+	Данный код позволяет провести AB-test
+	Пример использования для двух разных баннеров в index.html
 
 # Install
 
@@ -13,3 +14,10 @@
 # Build
 
 	npm run build
+
+# Test
+	
+	комментарии в index.js
+	(необходимо закоментировать *.jade и раскоментировать jsdom)
+	
+	npm run test or npm run test:watch
